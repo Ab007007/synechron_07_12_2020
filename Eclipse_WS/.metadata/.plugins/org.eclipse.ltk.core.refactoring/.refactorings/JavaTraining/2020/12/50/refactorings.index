@@ -3,3 +3,7 @@
 1607318625908	Copy compilation unit
 1607324457756	Delete element
 1607334228199	Extract method 'printPersonDetails'
+1607337725427	Rename type 'LoopsTime'
+1607338060872	Extract method 'printTableUsingFor'
+1607338230620	Extract method 'printUsingWhileLoop'
+1607338530041	Extract method 'printMultipleTables'
