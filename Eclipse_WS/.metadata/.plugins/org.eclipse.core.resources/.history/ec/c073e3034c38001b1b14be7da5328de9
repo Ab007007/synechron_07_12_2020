@@ -1,0 +1,25 @@
+package com.synechron.java.basic.methods;
+
+public class MethodsDemo {
+	
+	public static void main(String[] args) {
+		
+		//Creating Object to the Class MethodsDemo
+		MethodsDemo md = new MethodsDemo();
+		
+		// Call members of the class
+		md.printmyName();
+		md.printMyDesignation();
+		
+		
+	}
+
+	public void printmyName()
+	{
+		System.out.println("My Name is Aravinda");
+	}
+	
+	public void printMyDesignation() {
+		System.out.println("Software Testing Trainer");
+	}
+}

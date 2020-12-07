@@ -1,0 +1,21 @@
+package com.synechron.java.basic.vairables;
+
+public class ConstantsDemo {
+
+	String name;
+	String state;
+	static String country = "India";
+	public static void main(String[] args) {
+		
+		ConstantsDemo cd1 = new ConstantsDemo();
+		ConstantsDemo cd2 = new ConstantsDemo();
+		
+		cd1.name = "AHB";
+		cd2.name = "KHH";
+		cd1.state = "KA";
+		cd2.state = "PU";
+		
+		
+		
+	}
+}

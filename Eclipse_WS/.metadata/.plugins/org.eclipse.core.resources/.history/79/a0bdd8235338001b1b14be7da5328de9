@@ -1,0 +1,32 @@
+package com.synechron.java.basic.vairables;
+
+public class VariablesDemo {
+	
+	int a = 10;
+	int b = 20;
+	
+	public static void main(String[] args) {
+		// data_type variable_name = value ;
+		VariablesDemo vd = new VariablesDemo();
+		vd.test1();
+		vd.test2();
+	//	System.out.println("Sum of two numbers is : " + (a+b));
+		
+	}
+	
+	
+	public void test1()
+	{
+		System.out.println("Printing value of a : " + a);
+	}
+	
+	public void test2()
+	{
+		System.out.println("Printing value of a : " + a);
+		System.out.println("Printing value of b : " + b);
+	}
+	
+	
+	
+	
+}

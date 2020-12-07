@@ -1,0 +1,12 @@
+package com.synechron.java.basic.accessspecifiers.pack2;
+
+import com.synechron.java.basic.accessspecifiers.pack1.A;
+import com.synechron.java.basic.accessspecifiers.pack1.B;
+
+public class C {
+
+	public static void main(String[] args) {
+		A a = new A();
+		B b = new B();
+	}
+}

@@ -1,0 +1,11 @@
+package com.synechron.java.basic.vairables;
+
+public class ConstantsDemo {
+
+	String name;
+	String country;
+	public static void main(String[] args) {
+		
+		
+	}
+}

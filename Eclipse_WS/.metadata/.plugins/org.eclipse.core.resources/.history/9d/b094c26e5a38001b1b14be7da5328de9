@@ -1,0 +1,14 @@
+package com.synechron.java.basic.accessspecifiers.pack1;
+
+public class A {
+
+	private int privateInt = 0;
+	int defaultInt = 1;
+	protected int protectedInt = 2 ;
+	public int publicInt = 3;
+	
+	
+	
+			
+	
+}

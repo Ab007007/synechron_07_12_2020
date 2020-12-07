@@ -1,0 +1,10 @@
+package com.synechron.java.basic.accessmodifiers;
+
+public class FinalDemo extends StaticDemo {
+
+	
+	public static void main(String[] args) {
+		StaticDemo.x = 1000;
+		StaticDemo.test1();
+	}
+}

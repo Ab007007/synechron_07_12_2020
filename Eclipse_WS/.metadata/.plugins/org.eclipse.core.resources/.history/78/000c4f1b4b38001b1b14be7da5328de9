@@ -1,0 +1,13 @@
+package com.synechron.java.basic.methods;
+
+public class MethodsDemo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+	public void printmyName()
+	{
+		System.out.println("My Name is Aravinda");
+	}
+}

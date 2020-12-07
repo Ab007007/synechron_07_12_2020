@@ -1,0 +1,9 @@
+package com.synechron.java.basic.vairables;
+
+public class ConstantsDemo {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

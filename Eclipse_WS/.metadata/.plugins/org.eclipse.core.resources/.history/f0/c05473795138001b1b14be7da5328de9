@@ -1,0 +1,19 @@
+package com.synechron.java.basic.methods;
+
+public class Addition {
+
+	public static void main(String[] args) {
+		
+		Addition ad = new Addition();
+		int a = 10;
+		int b = 20;
+		
+		ad.sum();
+	}
+	
+	
+	public void sum(int x, int y)
+	{
+		System.out.println(x+y);
+	}
+}

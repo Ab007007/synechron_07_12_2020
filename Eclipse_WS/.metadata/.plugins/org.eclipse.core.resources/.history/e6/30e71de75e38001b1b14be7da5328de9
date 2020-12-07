@@ -1,0 +1,13 @@
+package com.synechron.java.basic.accessmodifiers;
+
+public class StaticDemo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+	static void test1()
+	{
+		System.out.println("Static test1 method");
+	}
+}

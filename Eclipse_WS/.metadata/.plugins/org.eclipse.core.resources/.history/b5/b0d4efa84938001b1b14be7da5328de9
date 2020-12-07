@@ -1,0 +1,12 @@
+package com.synechron.java.basic.vairables;
+
+public class VariablesDemo {
+	
+	public static void main(String[] args) {
+		// data_type variable_name = value ;
+		int a = 10;
+		int b = 20;
+		
+		System.out.println(a+b);
+	}
+}

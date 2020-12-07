@@ -1,0 +1,10 @@
+package com.synechron.java.basic.accessspecifiers.pack2;
+
+import com.synechron.java.basic.accessspecifiers.pack1.A;
+
+public class C {
+
+	public static void main(String[] args) {
+		A a = new A()
+	}
+}
