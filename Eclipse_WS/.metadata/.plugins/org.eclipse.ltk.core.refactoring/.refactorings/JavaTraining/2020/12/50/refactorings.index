@@ -12,3 +12,9 @@
 1607402917210	Copy compilation unit
 1607407682069	Rename type 'ExceptionDemo'
 1607410497732	Copy compilation unit
+1607422463716	Extract method 'print'
+1607422884578	Extract method 'printUsingForEach'
+1607423264759	Extract method 'printUsingIterator'
+1607423543588	Delete element
+1607423597982	Copy compilation unit
+1607424313374	Copy compilation unit
