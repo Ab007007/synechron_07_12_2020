@@ -1,33 +1,25 @@
-package com.synechron.java.basic.array.collections;
+package com.synechron.java.basic.array.generics.list;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
+import com.synechron.java.basic.interfaces.Cow;
 
 public class ArrayListDemo {
 
 	
 	public static void main(String[] args) {
 		
+		List<Cow> al = new ArrayList<Cow>();
+		al.add(new Cow());
+		al.add(new Cow());
+		al.add(new Cow());
+		al.add(new Cow());
+		al.add(new Cow());
+		al.add(new Cow());
 		
-		List list = new ArrayList();
-		
-		list.add(12);
-		list.add('A');
-		list.add("MAN");
-		list.add(123.222);
-		list.add(true);
-		print(list);
-		
-		list.add(0, "New Element at 0 index");
-		print(list);
-		
-		list.remove(1);
-		print(list);
-		
-		printUsingForEach(list);
-		
-		printUsingIterator(list);
+		print(al);
 		
 	}
 

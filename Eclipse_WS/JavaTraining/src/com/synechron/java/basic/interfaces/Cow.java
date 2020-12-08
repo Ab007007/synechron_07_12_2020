@@ -17,4 +17,10 @@ public class Cow implements Animal,EatsVegOnly
 		// TODO Auto-generated method stub
 		System.out.println("Lives in Domastic places");
 	}
+	 
+	 @Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "I'm belongs to Cow class";
+	}
 }

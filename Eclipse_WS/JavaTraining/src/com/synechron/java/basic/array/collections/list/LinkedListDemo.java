@@ -1,4 +1,4 @@
-package com.synechron.java.basic.array.collections;
+package com.synechron.java.basic.array.collections.list;
 
 import java.util.ArrayList;
 import java.util.Iterator;
