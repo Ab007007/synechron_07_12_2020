@@ -1,0 +1,5 @@
+hello all
+my first program on text read and write
+Java is writitng into the file
+Buffered writer is just easy to use than any other!!!
+Buffered writer is just easy to use than any other!!!
