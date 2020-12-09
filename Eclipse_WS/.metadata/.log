@@ -94,3 +94,8 @@ java.io.IOException: https://marketplace.eclipse.org/content/tern-eclipse-ide is
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+
+!ENTRY org.eclipse.epp.mpc.core 1 0 2020-12-09 15:03:55.799
+!MESSAGE Some entries could not be found on the Marketplace
+!SUBENTRY 1 org.eclipse.epp.mpc.core 1 0 2020-12-09 15:03:55.799
+!MESSAGE Node not found: '1415356'
