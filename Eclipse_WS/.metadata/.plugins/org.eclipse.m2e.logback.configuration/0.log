@@ -531,3 +531,48 @@
 2020-12-10 12:11:10,108 [Worker-514: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
 2020-12-10 12:11:10,110 [Worker-514: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-12-10 12:11:10,110 [Worker-514: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:14:49,983 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-12-10 12:17:09,501 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:17:09,501 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:17:09,510 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:17:09,510 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:17:47,441 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:17:47,443 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:17:47,447 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:17:47,447 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:19:45,120 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:19:45,120 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:19:45,123 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:19:45,124 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:19:56,894 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:19:56,894 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:19:56,896 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:19:56,897 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:20:22,506 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:20:22,507 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:20:22,510 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:20:22,510 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:22:11,196 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:22:11,197 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:22:11,199 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:22:11,200 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:23:03,454 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:23:03,454 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:23:03,456 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:23:03,456 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:24:48,104 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:24:48,105 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:24:48,111 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:24:48,111 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:25:43,156 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:25:43,157 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:25:43,163 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:25:43,164 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:26:09,383 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:26:09,383 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:26:09,386 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:26:09,386 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
+2020-12-10 12:26:59,090 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:26:59,091 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\main\resources
+2020-12-10 12:26:59,093 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-12-10 12:26:59,093 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\synechron_07_12_2020\Eclipse_WS\seleniumtraining\src\test\resources
