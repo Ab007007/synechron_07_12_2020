@@ -1,6 +1,7 @@
 package com.synechron.actitime.seleniumtraining.autosuggestions;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,9 +15,9 @@ public class MultipleElementsDemo {
 	
 		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.google.com/");
 		driver.findElement(By.name("q")).sendKeys("Synechron");
-		Thread.sleep(5000);
 		
 		List<WebElement> suggestions = driver.findElements(By.xpath("//ul[@role='listbox']/li[@role='presentation']"));
 		
