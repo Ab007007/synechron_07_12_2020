@@ -38,7 +38,6 @@ public class FluentWaitDemo
 		
 		Function<WebElement, Boolean> fun = new Function<WebElement, Boolean>() 
 		{
-			@Override
 			public Boolean apply(WebElement ele) {
 				if(ele.getText().equals("Hello")) {
 					System.out.println("Found Element..............");
@@ -53,11 +52,6 @@ public class FluentWaitDemo
 		};		
 				
 		wait.until(fun);
-		
-		
-		
-		
-		
 		String text3 =DriverUtils.getText("id", "demo");
 		String text4 = DriverUtils.getText("id", "demo2");
 		
@@ -65,10 +59,6 @@ public class FluentWaitDemo
 		System.out.println(text2);
 		System.out.println(text3);
 		System.out.println(text4);
-	
-	
-	
-	
 	}
 
 }

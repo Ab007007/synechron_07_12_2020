@@ -1,11 +1,16 @@
 package com.synechron.actitime.seleniumtraining.util;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.FluentWait;
+
+import com.google.common.base.Function;
 
 public class DriverUtils {
 
@@ -92,7 +97,32 @@ public class DriverUtils {
 		return textOnScreen;
 	}
 	
-	
+	public static void waitForVisiblility(WebElement ele, String txt)
+	{
+		FluentWait<WebElement> wait = new FluentWait<WebElement>(
+				ele)
+				.withTimeout(Duration.ofSeconds(10))
+				.pollingEvery(Duration.ofMillis(1000))
+				.ignoring(NoSuchElementException.class)
+				.ignoring(Exception.class);
+		
+		Function<WebElement, Boolean> fun = new Function<WebElement, Boolean>() 
+		{
+			public Boolean apply(WebElement ele) {
+				if(ele.getText().equals(txt)) {
+					System.out.println("Found Element.............." + ele.getText());
+					return true;
+				}
+				else {
+					System.out.println("Waiting for the element!!!!");
+					return false;
+				}
+			
+			}
+		};		
+				
+		wait.until(fun);
+	}
 	
 	
 }
