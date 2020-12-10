@@ -11,4 +11,12 @@ public class ActitimeUtils extends DriverUtils
 		
 		waitForVisiblility(getElement("xpath", "//td[@class='pagetitle' and contains(text(),'Enter')]"), "Enter Time-Track");
 	}
+	
+	
+	
+	public static void logout()
+	{
+		System.out.println("--- Logout  of Application ---");
+		click("id", "logoutLink");
+	}
 }

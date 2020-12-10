@@ -8,9 +8,13 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 
 import com.google.common.base.Function;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverUtils {
 
@@ -25,6 +29,42 @@ public class DriverUtils {
 		return driver;
 
 	}
+	
+	public static WebDriver getDriver(String type) {
+		System.out.println("--- Creating Browser Object ---" + type);
+		
+		switch (type.toLowerCase()) {
+		case "chrome":
+			WebDriverManager.chromedriver().browserVersion("87.0.4280.88").setup();;
+			driver = new ChromeDriver();
+			break;
+		case "ff":
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+			break;
+		case "edge":
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+			break;
+
+		default:
+			System.out.println("please check the supported drivers in framework");
+			break;
+		}
+		
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		return driver;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	public static void launch(String url) {
 		System.out.println("--- Launching the applicaiton ---" + url);

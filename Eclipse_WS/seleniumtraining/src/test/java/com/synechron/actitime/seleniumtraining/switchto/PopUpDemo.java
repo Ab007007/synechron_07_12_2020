@@ -9,7 +9,7 @@ public class PopUpDemo {
 	
 	public static void main(String[] args) {
 		
-		WebDriver driver = ActitimeUtils.getDriver();
+		WebDriver driver = ActitimeUtils.getDriver("edge");
 		ActitimeUtils.launch("http://formy-project.herokuapp.com/switch-window");
 		
 		ActitimeUtils.click("id", "alert-button");
