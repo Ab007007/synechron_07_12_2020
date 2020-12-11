@@ -10,7 +10,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.google.common.base.Function;
 
@@ -51,8 +53,8 @@ public class DriverUtils {
 			System.out.println("please check the supported drivers in framework");
 			break;
 		}
-		
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		String timeout = FileUtils.getPropertyValue("timeout");
+		driver.manage().timeouts().implicitlyWait(Integer.parseInt(timeout), TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		return driver;
 	}
@@ -120,6 +122,8 @@ public class DriverUtils {
 	
 	public static void click(String type, String value) {
 		System.out.println("Clicking on the element " + type + " and  "+ value);
+		WebDriverWait wait  =  new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.elementToBeClickable(getElement(type, value)));
 		getElement(type, value).click();
 		
 	}
