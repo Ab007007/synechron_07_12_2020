@@ -2,6 +2,8 @@ package com.synechron.actitime.seleniumtraining.util;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -9,12 +11,18 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -66,6 +74,38 @@ public class DriverUtils {
 		return driver;
 	}
 
+	
+	public static WebDriver getRemoteDriver(String type, String nodeUrl) throws MalformedURLException {
+		System.out.println("--- Creating Browser Object ---" + type);
+
+		switch (type.toLowerCase()) {
+		case "chrome":
+			ChromeOptions options = new ChromeOptions();
+			options.setCapability(CapabilityType.PLATFORM_NAME, Platform.WINDOWS);
+			options.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
+			options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+			options.addArguments("disable-infobars");
+			driver = new RemoteWebDriver(new URL(nodeUrl),options);
+			
+			break;
+		case "ff":
+			FirefoxOptions foptions = new FirefoxOptions();
+			foptions.setCapability(CapabilityType.PLATFORM_NAME, Platform.WINDOWS);
+			foptions.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
+			foptions.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+			foptions.addArguments("disable-infobars");
+			driver = new RemoteWebDriver(new URL(nodeUrl),foptions);
+			break;
+		
+		default:
+			System.out.println("please check the supported drivers in framework");
+			break;
+		}
+		return driver;
+	}
+
+	
+	
 	public static void launch(String url) {
 		System.out.println("--- Launching the applicaiton ---" + url);
 		driver.get(url);
