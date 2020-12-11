@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16873" started-at="2020-12-11T10:45:29Z" finished-at="2020-12-11T10:45:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16873" started-at="2020-12-11T10:45:29Z" finished-at="2020-12-11T10:45:46Z">
+      <class name="com.synechron.actitime.seleniumtraining.pom.test.LoginTest">
+        <test-method status="PASS" signature="initializePageObjects()[pri:0, instance:com.synechron.actitime.seleniumtraining.pom.test.LoginTest@91161c7]" name="initializePageObjects" is-config="true" duration-ms="8799" started-at="2020-12-11T10:45:29Z" finished-at="2020-12-11T10:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.synechron.actitime.seleniumtraining.pom.test.LoginTest@91161c7]" name="launch" is-config="true" duration-ms="2842" started-at="2020-12-11T10:45:38Z" finished-at="2020-12-11T10:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.synechron.actitime.seleniumtraining.pom.test.LoginTest@91161c7]" name="loginTest" duration-ms="5197" started-at="2020-12-11T10:45:41Z" finished-at="2020-12-11T10:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.synechron.actitime.seleniumtraining.pom.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

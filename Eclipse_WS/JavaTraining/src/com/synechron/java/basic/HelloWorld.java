@@ -1,5 +1,7 @@
 package com.synechron.java.basic;
 
+import java.util.Date;
+
 public class HelloWorld 
 {
 	/*
@@ -13,6 +15,9 @@ public class HelloWorld
 	public static void main(String[] args) 
 	{
 		System.out.println("Hello All, Welcome to Java/Selenium Sessions");
+		Date d = new Date();
+		System.out.println(d.toString().replace(" ", "_").replace(":", "_"));
+	
 		
 	}
 }

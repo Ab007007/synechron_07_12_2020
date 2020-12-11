@@ -12,14 +12,10 @@ public class ActitimeUtils extends DriverUtils
 		type("id", "username", username);
 		type("name", "pwd", password);
 		click("id", "loginButton");
-		
+		pause(3000);
+		validateTitle("actiTIME - Enter Time-Track");
 		waitForVisiblility(getElement("xpath", "//td[@class='pagetitle' and contains(text(),'Enter')]"), "Enter Time-Track");
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 	}
 	
 	public static void selectModule(String modulename) 
@@ -28,6 +24,7 @@ public class ActitimeUtils extends DriverUtils
 		switch (modulename.toUpperCase()) {
 		case "TASKS":
 			ActitimeUtils.click("xpath", "//div[text()='TASKS']/parent::a");
+			validateTitle("actiTIME - Task List");
 			break;
 		case "REPORTS":
 			ActitimeUtils.click("xpath", "//div[text()='REPORTS']/parent::a");
@@ -63,6 +60,7 @@ public class ActitimeUtils extends DriverUtils
 	{
 		System.out.println("--- Logout  of Application ---");
 		click("id", "logoutLink");
-		driver.close();
+		validateTitle("actiTIME - Login");
+	//	driver.close();
 	}
 }

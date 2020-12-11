@@ -14,7 +14,7 @@ public class CreateMultipleCustomer {
 
 	static String sheetname = "customer-data";
 	public static void main(String[] args) {
-		GlobalVariables.initializeGlobals();
+		
 		ActitimeUtils.getDriver(GlobalVariables.browser);
 		ActitimeUtils.launch(GlobalVariables.url);
 		ActitimeUtils.login(GlobalVariables.username, GlobalVariables.password);

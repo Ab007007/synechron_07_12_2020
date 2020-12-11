@@ -1,0 +1,5 @@
+WinWaitActive("File Upload")
+Sleep(2000)
+ControlSetText("File Upload","","Edit1","d:\synechron_07_12_2020\toast.png")
+Sleep(3000)
+ControlClick("File Upload","&Open","Button1")
